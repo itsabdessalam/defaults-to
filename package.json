@@ -1,5 +1,5 @@
 {
-  "name": "default-to",
+  "name": "defaults-to",
   "description": "Check if a given value is not undefined, null or NaN else it returns default value.",
   "version": "1.0.0",
   "author": "Abdessalam BENHARIRA <belmehelabdessalam.benharira@ynov.com> ()",
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abdessalam98/default-to.git"
+    "url": "git+https://github.com/Abdessalam98/defaults-to.git"
   },
   "keywords": [
-    "check",
     "default",
+    "defaults",
+    "check",
     "value"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Abdessalam98/default-to/issues"
+    "url": "https://github.com/Abdessalam98/defaults-to/issues"
   },
-  "homepage": "https://github.com/Abdessalam98/default-to#readme",
+  "homepage": "https://github.com/Abdessalam98/defaults-to#readme",
   "dependencies": {
     "ava": "^2.3.0"
   }

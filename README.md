@@ -11,29 +11,29 @@ $ npm install default-to
 ## Usage
 
 ```js
-const defaultTo = require("default-to");
+const defaultsTo = require("defaults-to");
 
-defaultTo(undefined, 1);
+defaultsTo(undefined, 1);
 //=> 1
-defaultTo(null, 1);
+defaultsTo(null, 1);
 //=> 1
-defaultTo(NaN, 1);;
+defaultsTo(NaN, 1);;
 //=> 1
-defaultTo("value", "valueIfNotDefined");
+defaultsTo("value", "valueIfNotDefined");
 //=> "value"
-defaultTo("", "valueIfNotDefined");
+defaultsTo("", "valueIfNotDefined");
 //=> ""
-defaultTo([1, 2, 3], []);
+defaultsTo([1, 2, 3], []);
 //=> [1, 2, 3]
-defaultTo({ a: 1, b: 2 }, {});
+defaultsTo({ a: 1, b: 2 }, {});
 //=> { a: 1, b: 2 }
-defaultTo(null, []);
+defaultsTo(null, []);
 //=> []
-defaultTo(undefined, [])
+defaultsTo(undefined, [])
 //=> []
-defaultTo(null, {})
+defaultsTo(null, {})
 //=> {}
-defaultTo(undefined, {})
+defaultsTo(undefined, {})
 //=> {}
 ```
 
