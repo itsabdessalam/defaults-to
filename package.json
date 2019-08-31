@@ -22,7 +22,7 @@
     "url": "https://github.com/Abdessalam98/defaults-to/issues"
   },
   "homepage": "https://github.com/Abdessalam98/defaults-to#readme",
-  "dependencies": {
+  "devDependencies": {
     "ava": "^2.3.0"
   }
 }
