@@ -1,3 +1,3 @@
 module.exports = (value, defaultValue) => {
-  return [undefined, null, NaN].includes(value) ? defaultValue : value;
+    return value === undefined || value === null || Number.isNaN(value) ? defaultValue : value;
 };
