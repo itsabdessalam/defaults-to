@@ -1,4 +1,4 @@
-# default-to
+# default-to [![Build Status](https://travis-ci.com/Abdessalam98/default-to.svg?token=QqMEeU97cu6BFoo1RaKD&branch=master)](https://travis-ci.com/Abdessalam98/default-to)
 
 > Check if a given value is not undefined, null or NaN else it returns default value
 
